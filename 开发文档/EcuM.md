@@ -1,0 +1,7 @@
+EcuM_ConfigType:
+consistency_hash使用元素为uint64的数组存储哈希值，数组大小根据使用的哈希算法决定
+
+EcuM_SelectShutdownTarget():
+ECUM_SHUTDOWN_TARGET_OFF功能根据板级设计和芯片设计决定可不可以用
+假设芯片设计有一个函数运行之后能够自己关闭自己，那就可以用
+板级设计有io控制供电关闭的话也可以用。

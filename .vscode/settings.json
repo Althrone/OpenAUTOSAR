@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "standardtypes.h": "c",
+        "ecum.h": "c",
+        "bswm.h": "c",
+        "ecum_cfg.h": "c",
+        "os.h": "c",
+        "ecum_externals.h": "c",
+        "mcu.h": "c",
+        "stdbool.h": "c",
+        "stddef.h": "c",
+        "stdatomic.h": "c",
+        "spinlock.h": "c"
+    }
+}
